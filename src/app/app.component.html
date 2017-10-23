@@ -1,0 +1,15 @@
+<h1>
+	App Title:: {{title}}!
+</h1>
+<div> 
+	<label> Change App Title: </label>
+	<input type="text" id="" #txtAppTile>
+	<input type="button" value="Change App Title" (click)="onGetAppNameClicked(txtAppTile.value)"/>
+</div>
+<div>	
+		<label> User Name: </label>
+		<input type="text"  [(ngModel)]="userName">
+		<div> {{userName}}</div>
+</div>
+
+
